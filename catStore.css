@@ -1,0 +1,46 @@
+
+.content {
+     float: left;
+     width: 80%;
+     font-family: helvetica;
+     background-image: url("https://s-media-cache-ak0.pinimg.com/736x/43/fc/6b/43fc6bf8373ca23466a0faca4bb6fa6f.jpg");
+        }  
+
+ #testimonials {
+     float: left;
+     width: 15%;
+     position: fixed;
+     top:0;
+     background-color: black;
+     color: white;
+     font-family: helvetica;
+ }       
+
+       
+ nav {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
